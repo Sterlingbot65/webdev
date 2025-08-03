@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Karuri's Portfolio</title>
+  <style>
+    /* Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      line-height: 1.6;
+      background: #f7f9fb;
+      color: #333;
+      padding: 0 20px;
+    }
+
+    header {
+      background: #0a192f;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    header h1 {
+      margin-bottom: 10px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: #64ffda;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 30px auto;
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      border-bottom: 2px solid #64ffda;
+      margin-bottom: 10px;
+      padding-bottom: 5px;
+      color: #0a192f;
+    }
+
+    form input,
+    form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 8px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    form button {
+      background: #64ffda;
+      color: #0a192f;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    form button:hover {
+      background: #52e0c4;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #0a192f;
+      color: white;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Karuri's Portfolio</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#programming">Programming</a></li>
+        <li><a href="#interests">Interests</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I’m Karuri Peter Gitahi , a 20 years old student at Jomo Kenyatta University of Agriculture and Technology who is passionate about software development, artificial intelligence, finance, philosophy, and ethical leadership.</p>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <ul>
+        <li><strong>BSc in Mathematics & Computer Science</strong> – Jomo Kenyatta University of Agriculture and Technology</li>
+        <li>Expected Graduation: [2027]</li>
+      </ul>
+    </section>
+
+    <section id="programming">
+      <h2>Programming Skills</h2>
+      <ul>
+        <li>Python</li>
+        <li>HTML, CSS, JavaScript</li>
+        <li>SQL & Databases</li>
+        <li>Git & GitHub</li>
+      </ul>
+    </section>
+
+    <section id="interests">
+      <h2>Interests</h2>
+      <p>I'm deeply interested in software development, artificial intelligence, finance, philosophy, and ethical leadership. I also enjoy poetry, coding projects, and long nature walks.</p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>Personal Finance Tracker</strong> – Built with Python to track income, expenses, and generate monthly reports.</li>
+        <li><strong>Portfolio Website</strong> – This website showcasing my skills and experience.</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form>
+        <label for="name">Name:</label><br />
+        <input type="text" id="name" name="name" required /><br />
+
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" required /><br />
+
+        <label for="message">Message:</label><br />
+        <textarea id="message" name="message" rows="5" required></textarea><br />
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Karuri. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
